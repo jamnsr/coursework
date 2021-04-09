@@ -1,0 +1,16 @@
+Jamal Nasser - HW3 - CPSC 3600
+
+The TCP implementation of client/server communication for transmitting
+files in a multi-threaded, concurrent manner is implemented with the following project.
+
+#Environment:
+These programs were built/tested on a clean Ubuntu 16.04 VM
+
+To build the programs type "make"
+To delete binaries type "make clean"
+
+Files:
+README - (This file)
+mpTcpClient.c - Source code to build the client program that sends the file to the server line by line.
+mpTcpServer.c - Source code to build the server program that receives the file from the client and reversesthe character order and stores it in a local file.
+Makefile - File used to build the two programs from source
